@@ -69,5 +69,5 @@ zless /net/corpora/twitter2/Tweets/2017/12/20171229\:*.out.gz  | /net/corpora/tw
 (December 30)\
 zless /net/corpora/twitter2/Tweets/2017/12/20171230\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab -i text | grep -iw "nasa" | wc -w \
 (December 31)\
-zless /net/corpora/twitter2/Tweets/2017/12/20171231\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab -i text | grep -iw "nasa" | wc -w \
+zless /net/corpora/twitter2/Tweets/2017/12/20171231\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab -i text | grep -iw "nasa" | wc -w 
 
