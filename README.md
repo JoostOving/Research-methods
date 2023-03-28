@@ -1,6 +1,6 @@
 # Popularity of ”NASA” on Twitter after the Artemis programme announcement based on days before and after the Artemis announcement: A Study
 
-## code used for obtaining results
+## Code used for obtaining results
 We made use of a bash script within the twitter corpora from the karora server of the RUG.
 We made use of the grep command to match "NASA", -iw made sure uppercase didnt matter and it could match only "NASA". We furtherly used wc -w to count the amount of times nasa was mentioned instead of scrolling through all nasa mentions. The *.out.gz made sure that the code was runnable by day instead of manually filling the hours in.
 
